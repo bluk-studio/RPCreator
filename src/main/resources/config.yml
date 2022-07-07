@@ -1,0 +1,18 @@
+# Plugin created by Waind.
+
+roleplay-chat-range: 25
+empty-player-name: "NONE"
+
+# Time in seconds equal to the sync of the player cards settings with the database
+sync-with-sqlite: 1800
+
+# Supported languages: en, ru
+lang: en
+
+# %player - get player's displayname %charactername - get player character name, %message - get current message from player
+Format:
+  action: "&e*&f%charactername %message&e*"
+  whisper: "&7%charactername: &f%message &7[&9Whisper&7]"
+  shout: "&7%charactername: &f%message&c!"
+  message: "&7%charactername: &f%message"
+  ooc: "&f[&cOOC&f] &7%player: &f%message"

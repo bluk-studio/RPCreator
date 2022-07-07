@@ -1,0 +1,6 @@
+header: "&6_-_-&f[&cRPCreator&f]&6-_-_"
+
+help-command:
+  - ""
+  - "&f/char help &6 - What you see now."
+  - "&f/char select &c<field> &e[value] &6 - Change a own field to current value"

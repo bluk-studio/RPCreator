@@ -1,0 +1,10 @@
+name: RPCreator
+version: '${project.version}'
+main: ru.waind.RPCreator
+authors: [ Waind ]
+description: Плагин для создания рп атмосферы с помощью сопутствующих команд.
+commands:
+  character:
+    aliases:
+      - char
+      - person

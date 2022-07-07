@@ -1,0 +1,34 @@
+# Settings for cards, you can change this for yourself.
+
+Players-Cards:
+  fields:
+    1:
+      type: string
+      placeholder: "Name"
+    2:
+      type: string
+      placeholder: "Surname"
+    3:
+      type: integer
+      placeholder: "Age"
+      max: 75
+      min: 16
+    4:
+      type: option
+      placeholder: "Gender"
+      selectable: true
+      variants:
+        - "Male"
+        - "Female"
+        - "Other"
+    5:
+      type: option
+      placeholder: "Fraction"
+      selectable: false
+      variants:
+        - "Wolfs"
+        - "Bears"
+        - "Hares"
+    6:
+      type: string_list
+      placeholder: "Description"
