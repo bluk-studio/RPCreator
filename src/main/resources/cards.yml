@@ -2,18 +2,18 @@
 
 Players-Cards:
   fields:
-    1:
+    character_name:
       type: string
       placeholder: "Name"
-    2:
+    character_surname:
       type: string
       placeholder: "Surname"
-    3:
+    character_age:
       type: integer
       placeholder: "Age"
       max: 75
       min: 16
-    4:
+    character_gender:
       type: option
       placeholder: "Gender"
       selectable: true
@@ -21,14 +21,14 @@ Players-Cards:
         - "Male"
         - "Female"
         - "Other"
-    5:
+    character_faction:
       type: option
-      placeholder: "Fraction"
+      placeholder: "Faction"
       selectable: false
       variants:
         - "Wolfs"
         - "Bears"
         - "Hares"
-    6:
+    character_description:
       type: string_list
       placeholder: "Description"
